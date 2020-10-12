@@ -10,6 +10,32 @@
     background: var(--color-primary);
 }
 
+.user-info {
+    height: 94%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 32px;
+    background-color: '#eee';
+}
+
+.user-name {
+    height: 93%;
+    color: '#d4c2ff';
+    font-size: 32px;
+    margin-right: -90px;
+}
+
+.log-out {
+    display: flex;
+    height: 92%;
+}
+
 .logo-container img {
     height: 10rem;
 }

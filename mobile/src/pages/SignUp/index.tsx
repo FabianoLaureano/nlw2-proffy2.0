@@ -76,6 +76,7 @@ const SignUp: React.FC = () => {
                     onChangeText={text => setEmail(text)}
                     placeholder="E-mail"
                     placeholderTextColor="#c1bccc"
+                    autoCapitalize='none'
                 />
 
                 <TextInput
@@ -84,6 +85,8 @@ const SignUp: React.FC = () => {
                     onChangeText={text => setSenha(text)}
                     placeholder="Senha"
                     placeholderTextColor="#c1bccc"
+                    secureTextEntry={true}
+                    autoCapitalize='none'
                 />
             </View>
     

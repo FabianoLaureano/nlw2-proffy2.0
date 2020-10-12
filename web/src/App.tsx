@@ -1,6 +1,10 @@
 import React from 'react';
 
+import { AuthProvider } from './contexts/auth';
+
 import Routes from './routes';
+
+//import Routes from './routes/index'
 
 import './assets/styles/global.css';
 
@@ -8,7 +12,11 @@ import './assets/styles/global.css';
 
 function App() {
   return (
-    <Routes />
+    //<BrowserRouter>
+		<AuthProvider>				
+			<Routes />				
+		</AuthProvider>
+	//</BrowserRouter>
   );
 }
 

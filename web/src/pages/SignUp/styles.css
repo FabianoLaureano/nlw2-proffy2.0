@@ -1,0 +1,56 @@
+#signin-page{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 55% auto;
+    align-items: center;
+}
+
+.title {
+    margin-top: 100;
+    align-items: center;
+}
+
+.title h1 {
+    margin-left: 150;
+    margin-right: 100;
+    font-size: xx-large;
+}
+
+.signup {
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.signup-form h1 {
+    font-weight: 600;
+    font-size: 3.6rem;
+    color: var(--color-text-title);
+    margin-bottom: 5rem;
+}
+
+.signup-form {
+    width: 60%;
+    max-height: 60vh;
+}
+
+.signup-form form button {
+    background-color: #DCDCE6;
+    color: var(--color-text-complement);
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    font: 400 1.6rem Archivo;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 5rem;
+}
+
+.signup-form form button:hover {
+    background-color: var(--color-secundary-dark);
+    color: white;
+}
