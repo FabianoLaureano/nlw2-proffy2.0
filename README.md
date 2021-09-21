@@ -14,9 +14,7 @@
 
 <br>
 
-<p align="center">
-  ![proffy](https://user-images.githubusercontent.com/5856379/134099599-ea306532-09e8-4770-9704-33470655cfba.png)
-</p>
+![proffy](https://user-images.githubusercontent.com/5856379/134099599-ea306532-09e8-4770-9704-33470655cfba.png)
 
 ## 🚀 Tecnologias
 
